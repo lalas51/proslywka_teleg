@@ -1,8 +1,5 @@
 import telebot;
 bot = telebot.TeleBot('%1381323596:AAHvVjPBkfUcURunqak8YkBxtxSCJmvolnw%');
-@bot.message_handler(content_types=['text'])
-def get_text_messages(message):
-@bot.message_handler(content_types=['text'])
 def get_text_messages(message):
 @bot.message_handler(content_types=['text', 'document', 'audio'])
 if message.text == "Zdarova":
